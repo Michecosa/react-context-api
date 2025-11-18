@@ -42,7 +42,12 @@ export default function Navbar({ cart }) {
             </li>
           </ul>
           <div className="d-flex align-items-center position-relative">
-            <span className="btn mx-3">Modalit&agrave; Budget</span>
+            <button
+              className="btn mx-3"
+              onClick={() => setBudgetMode((prev) => !prev)}
+            >
+              Modalit&agrave; Budget: {budgetMode ? "ON" : "OFF"}
+            </button>
             <NavLink to="/carrello" className="fw-bold">
               <i className="bi bi-cart4 fs-4"></i>
               {cart.length > 0 && (
