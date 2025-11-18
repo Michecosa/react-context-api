@@ -1,7 +1,7 @@
 export default function Jumbotron() {
   return (
     <div
-      className="jumbotron-image text-white shadow p-5 position-relative"
+      className="jumbotron-color text-white shadow p-5 position-relative"
       style={{
         height: "60vh",
         objectFit: "16/9",
