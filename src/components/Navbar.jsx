@@ -43,15 +43,13 @@ export default function Navbar({ cart }) {
           </ul>
           <div className="d-flex align-items-center">
             <button
-              className={`btn fw-semibold me-3 d-flex align-items-center ${
-                budgetMode ? "btn-outline-success" : "btn-outline-danger"
+              className={`btn me-4 d-flex align-items-center rounded-5 ${
+                budgetMode ? "btn-success" : "btn-danger"
               }`}
               onClick={() => setBudgetMode((prev) => !prev)}
+              style={{ fontSize: "1.3rem" }}
             >
-              <i className="bi bi-piggy-bank fs-5"></i>
-              <span className="ms-2">
-                Modalit&agrave; Budget: {budgetMode ? "ON" : "OFF"}
-              </span>
+              <i className="bi bi-piggy-bank-fill text-white"></i>
             </button>
             <NavLink to="/carrello" className="fw-bold position-relative">
               <i className="bi bi-cart4 fs-4"></i>
