@@ -43,7 +43,9 @@ export default function Navbar({ cart }) {
           </ul>
           <div className="d-flex align-items-center position-relative">
             <button
-              className="btn mx-3"
+              className={`btn mx-3 ${
+                budgetMode ? "btn-outline-success" : "btn-outline-danger"
+              }`}
               onClick={() => setBudgetMode((prev) => !prev)}
             >
               Modalit&agrave; Budget: {budgetMode ? "ON" : "OFF"}
