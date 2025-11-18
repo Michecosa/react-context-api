@@ -7,9 +7,9 @@ export default function Homepage() {
       <div className="container my-5">
         <div className="row g-4">
           <div className="col-12">
-            <div className="card p-2 rounded-4 shadow text-center">
+            <div className="card p-2 rounded-4 text-center">
               <div className="card-body">
-                <span className="gold-text">
+                <span className="text-warning">
                   <i className="bi bi-trophy-fill fs-1"></i>
                 </span>
                 <h2 className="fw-bolder">8 years at the top</h2>
@@ -21,7 +21,7 @@ export default function Homepage() {
           </div>
 
           <div className="col-md-4">
-            <div className="card h-100 p-2 rounded-4 bg-dark text-white shadow">
+            <div className="card h-100 p-2 rounded-4">
               <div className="card-body text-center d-flex flex-column justify-content-center">
                 <h2
                   className="rainbow-text fw-bolder"
@@ -37,10 +37,10 @@ export default function Homepage() {
           </div>
 
           <div className="col-md-4">
-            <div className="card h-100 p-2 rounded-4 shadow">
+            <div className="card h-100 p-2 rounded-4">
               <div className="card-body text-center d-flex flex-column justify-content-center">
                 <h2
-                  className="gold-text fw-bolder"
+                  className="text-warning fw-bolder"
                   style={{ fontSize: "2rem" }}
                 >
                   <i className="bi bi-star-fill me-1"></i>
@@ -59,7 +59,7 @@ export default function Homepage() {
           </div>
 
           <div className="col-md-4">
-            <div className="card h-100 p-2 rounded-4 shadow">
+            <div className="card h-100 p-2 rounded-4">
               <div className="card-body text-center d-flex flex-column justify-content-center">
                 <h2
                   className="fw-bolder"
