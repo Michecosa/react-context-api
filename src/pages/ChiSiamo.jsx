@@ -5,15 +5,15 @@ export default function ChiSiamo() {
   return (
     <div className="container mt-4">
       <div className="row g-4 g-lg-5 align-items-stretch">
-        <div className="col-lg-7">
+        <div className="col-lg-7 pt-3">
           <img
             src={image_1}
             alt="Shop with us"
-            className="img-fluid mt-3 h-100 w-100 rounded-5"
+            className="img-fluid h-100 w-100 rounded-5"
             style={{ objectFit: "cover" }}
           />
         </div>
-        <div className="col-lg-5">
+        <div className="col-lg-5 d-flex flex-column justify-content-between">
           <div style={{ fontFamily: "Funnel Display" }}>
             <h1
               style={{
