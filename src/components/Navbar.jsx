@@ -9,7 +9,7 @@ export default function Navbar({ cart }) {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
-        <NavLink className="navbar-brand" to="/">
+        <NavLink className="navbar-brand d-flex align-items-center" to="/">
           <img src={logo} alt="Logo" width="24" height="auto" />
         </NavLink>
         <button
