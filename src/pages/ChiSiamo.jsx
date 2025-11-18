@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function ChiSiamo() {
   return (
     <div className="container mt-4">
@@ -12,7 +14,7 @@ export default function ChiSiamo() {
                 textTransform: "uppercase",
               }}
             >
-              <span style={{ color: "#F54927", fontSize: "1.5rem" }}>
+              <span className="text-primary" style={{ fontSize: "1.5rem" }}>
                 A bit
               </span>{" "}
               <br />
@@ -20,7 +22,7 @@ export default function ChiSiamo() {
             </h1>
           </div>
           <div>
-            <p className="mt-4 text-muted" style={{ lineHeight: "1.8rem" }}>
+            <p className="my-4 text-muted" style={{ lineHeight: "1.8rem" }}>
               Our story is rooted in a passion for discovery and quality. We are
               not simply a store, but a true{" "}
               <strong>mosaic of opportunity</strong>, curated to meet your every
@@ -33,6 +35,12 @@ export default function ChiSiamo() {
               style or budget.
             </p>
           </div>
+
+          <Link to="/">
+            <button className="btn btn-primary fw-semibold px-4 py-3">
+              EXPLORE MORE
+            </button>
+          </Link>
         </div>
       </div>
     </div>
