@@ -43,7 +43,7 @@ export default function ChiSiamo() {
           </div>
 
           <Link to="/">
-            <button className="btn btn-primary fw-semibold px-4 py-3 mt-3">
+            <button className="btn btn-primary shadow fw-semibold px-4 py-3 mt-3">
               EXPLORE MORE
             </button>
           </Link>
