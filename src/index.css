@@ -6,3 +6,17 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.gold-text {
+  background: linear-gradient(
+    135deg,
+    #fff7b1,
+    #f7d774,
+    #e6b450,
+    #c89f3d,
+    #8f6b1f
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
