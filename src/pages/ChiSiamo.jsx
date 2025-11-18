@@ -4,13 +4,13 @@ import image_1 from "../assets/AboutUs_1.jpg";
 export default function ChiSiamo() {
   return (
     <div className="container mt-4">
-      <div className="row g-5">
+      <div className="row g-4 g-lg-5 align-items-stretch">
         <div className="col-lg-7">
           <img
             src={image_1}
             alt="Shop with us"
-            className="img-fluid mt-3 rounded-5"
-            style={{ objectFit: "contain" }}
+            className="img-fluid mt-3 h-100 w-100 rounded-5"
+            style={{ objectFit: "cover" }}
           />
         </div>
         <div className="col-lg-5">
@@ -43,7 +43,7 @@ export default function ChiSiamo() {
           </div>
 
           <Link to="/">
-            <button className="btn btn-primary fw-semibold px-4 py-3">
+            <button className="btn btn-primary fw-semibold px-4 py-3 mt-3">
               EXPLORE MORE
             </button>
           </Link>
