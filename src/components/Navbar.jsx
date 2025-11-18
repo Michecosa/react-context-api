@@ -43,7 +43,7 @@ export default function Navbar({ cart }) {
           </ul>
           <div className="d-flex align-items-center position-relative">
             <button
-              className={`btn fw-semibold mx-3 d-flex align-items-center ${
+              className={`btn fw-semibold me-3 d-flex align-items-center ${
                 budgetMode ? "btn-outline-success" : "btn-outline-danger"
               }`}
               onClick={() => setBudgetMode((prev) => !prev)}
