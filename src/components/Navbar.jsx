@@ -55,7 +55,7 @@ export default function Navbar({ cart }) {
               <i className="bi bi-cart4 fs-4"></i>
               {cart.length > 0 && (
                 <span
-                  class="position-absolute translate-middle badge rounded-pill bg-secondary"
+                  class="position-absolute translate-middle badge rounded-pill bg-danger"
                   style={{ top: "0.2rem", left: "1.6rem" }}
                 >
                   {cart.length}

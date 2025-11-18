@@ -9,7 +9,7 @@ export default function CardProdotti({ products, addToCart }) {
           className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 position-relative"
         >
           <div className="card h-100 shadow-sm">
-            <div style={{ width: "100%", height: "200px", padding: "1.1rem" }}>
+            <div style={{ width: "100%", height: "200px", padding: "1.6rem" }}>
               <Link to={`/prodotti/${product.id}`}>
                 <img
                   src={product.image}
@@ -25,17 +25,19 @@ export default function CardProdotti({ products, addToCart }) {
             </div>
 
             <div className="card-body d-flex flex-column">
-              <span
+              {/*               <span
                 className="badge text-bg-danger rounded-5 p-2 position-absolute"
                 style={{ right: "0.5rem", top: "0.5rem" }}
               >
                 Limited time deal!
-              </span>
+              </span> */}
               <Link
                 to={`/prodotti/${product.id}`}
                 className="text-decoration-none"
               >
-                <h6 className="card-title fw-bold mb-1">{product.title}</h6>
+                <h6 className="card-title fw-bold mb-1 text-justify">
+                  {product.title}
+                </h6>
               </Link>
               <div className="d-flex justify-content-between">
                 <p className="text-muted mb-2" style={{ fontSize: "0.75rem" }}>
@@ -63,7 +65,7 @@ export default function CardProdotti({ products, addToCart }) {
                 {product.description}
               </p>
               <div className="d-flex justify-content-between align-items-center mt-3">
-                <span className="text-danger fs-4 fw-bolder">
+                <span className="fs-4 fw-bolder">
                   &euro;{product.price.toFixed(2)}
                 </span>
                 <button
