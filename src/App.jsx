@@ -22,7 +22,7 @@ export default function App() {
     setCart((prev) => prev.filter((el, index) => index !== indexToRemove));
   }
 
-  const [budgetMode, setBudgetMode] = useState(null);
+  const [budgetMode, setBudgetMode] = useState(false);
 
   return (
     <BudgetContext.Provider value={{ budgetMode, setBudgetMode }}>
