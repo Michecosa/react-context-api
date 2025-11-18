@@ -1,12 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap");
 
-.jumbotron-color {
-  background: #007dea;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .rainbow-text {
   background: linear-gradient(
     90deg,
