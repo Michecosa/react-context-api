@@ -1,7 +1,11 @@
 import { NavLink } from "react-router-dom";
 import logo from "../assets/store.png";
+import BudgetContext from "../context/BudgetContext";
+import { useContext } from "react";
 
 export default function Navbar({ cart }) {
+  const { budgetMode, setBudgetMode } = useContext(BudgetContext);
+
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
@@ -38,6 +42,7 @@ export default function Navbar({ cart }) {
             </li>
           </ul>
           <div className="d-flex align-items-center position-relative">
+            <span className="btn mx-3">Modalit&agrave; Budget</span>
             <NavLink to="/carrello" className="fw-bold">
               <i className="bi bi-cart4 fs-4"></i>
               {cart.length > 0 && (
