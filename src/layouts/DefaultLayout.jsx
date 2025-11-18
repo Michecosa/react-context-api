@@ -7,7 +7,7 @@ export default function DefaultLayout({ cart }) {
     <div className="d-flex flex-column" style={{ minHeight: "100vh" }}>
       <Header cart={cart} />
 
-      <main className="flex-grow-1 pb-2">
+      <main className="flex-grow-1">
         <Outlet />
       </main>
 
