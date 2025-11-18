@@ -24,7 +24,7 @@ export default function Homepage() {
             <div className="card h-100 p-2 rounded-4 bg-dark text-white shadow">
               <div className="card-body text-center d-flex flex-column justify-content-center">
                 <h2
-                  className="gold-text fw-bolder"
+                  className="rainbow-text fw-bolder"
                   style={{ fontSize: "2rem" }}
                 >
                   25MLN+

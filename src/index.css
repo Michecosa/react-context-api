@@ -20,3 +20,18 @@
   -webkit-text-fill-color: transparent;
   display: inline-block;
 }
+
+.rainbow-text {
+  background: linear-gradient(
+    90deg,
+    #ffd900,
+    #ff9900,
+    #cf2a56,
+    #7d2acf,
+    #2a72cf,
+    #2a2dcf
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
