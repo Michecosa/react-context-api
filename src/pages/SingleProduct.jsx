@@ -25,7 +25,7 @@ export default function SingleProduct({ urlProducts, addToCart }) {
   return (
     <div className="container my-4">
       {loading ? (
-        <p>Loading...</p>
+        <div className="spinner-border text-primary" role="status"></div>
       ) : (
         <div className="row g-5 align-items-start">
           <div className="col-md-5 d-flex justify-content-center">
